@@ -71,9 +71,21 @@ Salin file contoh .env dan sesuaikan konfigurasinya:
 
 Ini adaah hasil setelah dijalankan di terminal:
 
-![Hasil CLI](docs/hasil_V2.png)
+![Hasil Gudang](docs/gudang.png)
+
+![Hasil Kasir](docs/kasir.png)
 
 ---
+
+## 📊 Business Intelligence & Data Analytics
+
+Project ini dilengkapi dengan pipeline analitik untuk kebutuhan simulasi bisnis (*Business Intelligence*).
+
+* **Data Simulation:** Menggunakan script Python untuk menyuntikkan 300 data transaksi historis acak secara realistis (Januari - Mei 2026) ke dalam database MySQL.
+* **Data Modeling:** Menggunakan *SQL View* (`v_analisis_penjualan`) untuk menggabungkan tabel relasional agar siap dianalisis.
+* **Data Visualization:** Diintegrasikan dengan Tableau Public untuk menghasilkan dashboard performa retail yang interaktif.
+
+🔗 **[Lihat Dashboard Interaktif Saya di Tableau Public](https://public.tableau.com/views/BabyDiapersRetailSalesPerformanceDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ## 🧠 Konsep yang Dipelajari
 🔹 Database & Query
